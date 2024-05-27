@@ -1,13 +1,10 @@
 // write a funtion that takes in an object and return the number  of properties in the objects
-function countProperties(obj) {
+function countObj(obj){
     return Object.keys(obj).length
 }
-
-// Example usage
-let myObject = {
-    name: "John",
-    age: 30,
-    occupation: "Developer"
-};
-
-console.log(countProperties(myObject));  // Output: 3
+const myobj={
+    name:"joy",
+    age:30,
+    "job":"software"
+}
+console.log(countObj(myobj))

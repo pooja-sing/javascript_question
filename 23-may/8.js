@@ -2,6 +2,6 @@
 
 function strLen(str){
     return str.length
-
 }
-console.log(strLen("hello00000000"))
+console.log(strLen("hello"))
+

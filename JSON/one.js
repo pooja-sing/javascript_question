@@ -1,3 +1,3 @@
-const obj='{"name":"ram","age":20}'
-const data=JSON.parse(obj)
+const str='{"name":"pooja","age":20,"city":"allahabad"}'
+const data=JSON.stringify(str)
 console.log(data)
